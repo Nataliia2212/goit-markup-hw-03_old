@@ -25,7 +25,7 @@
     <header class="heder">
       <div class="container heder-container">
         <nav class="navigation">
-          <a href="" lang="en" class="logo link">
+          <a href="./index.html" lang="en" class="logo link">
             <span class="accent">Web</span>Studio
           </a>
           <ul class="nav-list">
@@ -57,135 +57,157 @@
       </div>
     </header>
     <main>
-      <section class="portfolio">
-        <h1>Портфоліо</h1>
-        <ul>
-          <li class="list">
-            <button type="button" class="portfolio-btn">Усі</button>
-          </li>
-          <li class="list">
-            <button type="button" class="portfolio-btn">Веб-сайти</button>
-          </li>
-          <li class="list">
-            <button type="button" class="portfolio-btn">Додатки</button>
-          </li>
-          <li class="list">
-            <button type="button" class="portfolio-btn">Дизайн</button>
-          </li>
-          <li class="list">
-            <button type="button" class="portfolio-btn">Маркетинг</button>
-          </li>
-        </ul>
-        <ul class="portfolio-list">
-          <li class="portfolio-list-item list">
-            <a href="" class="portfolio-list-link link">
-              <img
-                src="./images/portfolio1.jpg"
-                alt="Веб-сайт персоналу"
-                width="370"
-                height="294"
-              />
-              <h2 class="portfolio-title">Технокряк</h2>
-              <p class="portfolio-descr">Веб-сайт</p>
-            </a>
-          </li>
-          <li class="portfolio-list-item list">
-            <a href="" class="portfolio-list-link link">
-              <img
-                src="./images/portfolio2.jpg"
-                alt="Постер команд з баскетболу"
-                width="370"
-                height="294"
-              />
-              <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
-              <p class="portfolio-descr">Дизайн</p>
-            </a>
-          </li>
-          <li class="portfolio-list-item list">
-            <a href="" class="portfolio-list-link link">
-              <img
-                src="./images/portfolio3.jpg"
-                alt="Логотип ресторану Сіафуд"
-                width="370"
-                height="294"
-              />
-              <h2 class="portfolio-title">Ресторан Seafood</h2>
-              <p class="portfolio-descr">Додаток</p>
-            </a>
-          </li>
-          <li class="portfolio-list-item list">
-            <a href="" class="portfolio-list-link link">
-              <img
-                src="./images/portfolio4.jpg"
-                alt="Навушники"
-                width="370"
-                height="294"
-              />
-              <h2 class="portfolio-title">Проєкт Prime</h2>
-              <p class="portfolio-descr">Маркетинг</p>
-            </a>
-          </li>
-          <li class="portfolio-list-item list">
-            <a href="" class="portfolio-list-link link">
-              <img
-                src="./images/portfolio5.jpg"
-                alt="Картонні коробки"
-                width="370"
-                height="294"
-              />
-              <h2 class="portfolio-title">Проєкт Boxes</h2>
-              <p class="portfolio-descr">Додаток</p>
-            </a>
-          </li>
-          <li class="portfolio-list-item list">
-            <a href="" class="portfolio-list-link link">
-              <img
-                src="./images/portfolio6.jpg"
-                alt="Монітор з відкритим веб-сайтом"
-                width="370"
-                height="294"
-              />
-              <h2 class="portfolio-title">Inspiration has no Borders</h2>
-              <p class="portfolio-descr">Веб-сайт</p>
-            </a>
-          </li>
-          <li class="portfolio-list-item list">
-            <a href="" class="portfolio-list-link link">
-              <img
-                src="./images/portfolio7.jpg"
-                alt="Журнал"
-                width="370"
-                height="294"
-              />
-              <h2 class="portfolio-title">Видання Limited Edition</h2>
-              <p class="portfolio-descr">Дизайн</p>
-            </a>
-          </li>
-          <li class="portfolio-list-item list">
-            <a href="" class="portfolio-list-link link">
-              <img
-                src="./images/portfolio8.jpg"
-                alt="Етикетка"
-                width="370"
-                height="294"
-              />
-              <h2 class="portfolio-title">Проєкт LAB</h2>
-              <p class="portfolio-descr">Маркетинг</p>
-            </a>
-          </li>
-          <li class="portfolio-list-item list">
-            <a href="" class="portfolio-list-link link">
-              <img
-                src="./images/portfolio9.jpg"
-                alt="Нетбук"
-                width="370"
-                height="294"
-              />
-              <h2 class="portfolio-title">Growing Business</h2>
-              <p class="portfolio-descr">Додаток</p>
-            </a>
-          </li>
-        </ul>
+      <section class="section-portfolio section">
+        <div class="container">
+          <h1 class="visually-hidden">Портфоліо</h1>
+          <ul class="portfolio-filter">
+            <li class="portfolio-filter-item list">
+              <button type="button" class="portfolio-btn">Усі</button>
+            </li>
+            <li class="portfolio-filter-item list">
+              <button type="button" class="portfolio-btn">Веб-сайти</button>
+            </li>
+            <li class="portfolio-filter-item list">
+              <button type="button" class="portfolio-btn">Додатки</button>
+            </li>
+            <li class="portfolio-filter-item list">
+              <button type="button" class="portfolio-btn">Дизайн</button>
+            </li>
+            <li class="portfolio-filter-item list">
+              <button type="button" class="portfolio-btn">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="portfolio-list">
+            <li class="portfolio-list-item list">
+              <a href="" class="portfolio-list-link link">
+                <img
+                  src="./images/portfolio1.jpg"
+                  alt="Веб-сайт персоналу"
+                  width="370"
+                  height="294"
+                />
+                <div class="portfolio-text">
+                  <h2 class="portfolio-title">Технокряк</h2>
+                  <p class="portfolio-descr">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list-item list">
+              <a href="" class="portfolio-list-link link">
+                <img
+                  src="./images/portfolio2.jpg"
+                  alt="Постер команд з баскетболу"
+                  width="370"
+                  height="294"
+                />
+                <div class="portfolio-text">
+                  <h2 class="portfolio-title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="portfolio-descr">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list-item list">
+              <a href="" class="portfolio-list-link link">
+                <img
+                  src="./images/portfolio3.jpg"
+                  alt="Логотип ресторану Сіафуд"
+                  width="370"
+                  height="294"
+                />
+                <div class="portfolio-text">
+                  <h2 class="portfolio-title">Ресторан Seafood</h2>
+                  <p class="portfolio-descr">Додаток</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list-item list">
+              <a href="" class="portfolio-list-link link">
+                <img
+                  src="./images/portfolio4.jpg"
+                  alt="Навушники"
+                  width="370"
+                  height="294"
+                />
+                <div class="portfolio-text">
+                  <h2 class="portfolio-title">Проєкт Prime</h2>
+                  <p class="portfolio-descr">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list-item list">
+              <a href="" class="portfolio-list-link link">
+                <img
+                  src="./images/portfolio5.jpg"
+                  alt="Картонні коробки"
+                  width="370"
+                  height="294"
+                />
+                <div class="portfolio-text">
+                  <h2 class="portfolio-title">Проєкт Boxes</h2>
+                  <p class="portfolio-descr">Додаток</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list-item list">
+              <a href="" class="portfolio-list-link link">
+                <img
+                  src="./images/portfolio6.jpg"
+                  alt="Монітор з відкритим веб-сайтом"
+                  width="370"
+                  height="294"
+                />
+                <div class="portfolio-text">
+                  <h2 class="portfolio-title">Inspiration has no Borders</h2>
+                  <p class="portfolio-descr">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list-item list">
+              <a href="" class="portfolio-list-link link">
+                <img
+                  src="./images/portfolio7.jpg"
+                  alt="Журнал"
+                  width="370"
+                  height="294"
+                />
+                <div class="portfolio-text">
+                  <h2 class="portfolio-title">Видання Limited Edition</h2>
+                  <p class="portfolio-descr">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list-item list">
+              <a href="" class="portfolio-list-link link">
+                <img
+                  src="./images/portfolio8.jpg"
+                  alt="Етикетка"
+                  width="370"
+                  height="294"
+                />
+                <div class="portfolio-text">
+                  <h2 class="portfolio-title">Проєкт LAB</h2>
+                  <p class="portfolio-descr">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list-item list">
+              <a href="" class="portfolio-list-link link">
+                <img
+                  src="./images/portfolio9.jpg"
+                  alt="Нетбук"
+                  width="370"
+                  height="294"
+                />
+                <div class="portfolio-text">
+                  <h2 class="portfolio-title">Growing Business</h2>
+                  <p class="portfolio-descr">Додаток</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
